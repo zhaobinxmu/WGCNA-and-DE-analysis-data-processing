@@ -1,6 +1,6 @@
 # WGCNA-and-DE-analysis-data-processing
 
-#ceshi_pada_random.txt
+#ceshi_pdata_random.txt
 sample ID	FE1	FE2	FE3	FE4	FE5	FE6	FE7	FE8	FE9	FE10	FE11
 SP5	1.5	2.5	3.5	4.5	5.5	6.5	7.5	8.5	9.5	10.5	11.5
 SP6	1.6	2.6	3.6	4.6	5.6	6.6	7.6	8.6	9.6	10.6	11.6
