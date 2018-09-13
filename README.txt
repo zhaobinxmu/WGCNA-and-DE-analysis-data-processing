@@ -89,7 +89,7 @@ ceshi_matrix_up<-ceshi_matrix[rownames(ceshi_DE_UP),]
 #WGCNA Processing
 data_ceshi_matrix_up_transpose<-as.data.frame(t(ceshi_matrix_up)[,])
 #将表达数据和处理匹配样本sample，ceshi_pdata_random和data_ceshi_matrix_up_transpose的sample不一致，
-且data_ceshi_matrix_up_transpose是按照规则顺序排列的，则把规则的放在括号前面，将不规则的ceshi_pdata_random
+且data_ceshi_matrix_up_transpose是按照规则顺序排列的，则把规则的放在括号前面，括号后面的作为参照，将不规则的ceshi_pdata_random
 重新排列成sample成一致性
 matche_ceshi_rownames<-match( rownames(data_ceshi_matrix_up_transpose), rownames(ceshi_pdata_random))
 dataTraits_ceshi=ceshi_pdata_random[matche_ceshi_rownames,]
